@@ -368,5 +368,5 @@ if __name__ == '__main__':
             print('file error:', file_path, '\n', e)
     print(f'{"*"*50}\nfinish parsing, save data to {OUT_PATH}')
     data.to_excel('result.xlsx', sheet_name='data')
-    print(f'{"*" * 50}\nALL DONE. THANK YOU FOR USING MY PROGRAMME. GOODBYE!\n{"*"*50}')
+    print(f'{"*" * 50}\nALL DONE. GOODBYE!\n{"*"*50}')
 
