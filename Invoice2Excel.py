@@ -11,9 +11,6 @@ import re
 import sys
 import getopt
 
-__author__ = 'yooongchun'
-__email__ = 'yooongchun@foxmail.com'
-
 
 class Extractor(object):
     def __init__(self, path):
