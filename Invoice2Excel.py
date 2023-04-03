@@ -342,7 +342,7 @@ class Extractor(object):
 
 if __name__ == '__main__':
     IN_PATH = 'input'
-    OUT_PATH = 'Invoice_information2Excel.xlsx'
+    OUT_PATH = 'result.xlsx'
     # parse params
     opts, args = getopt.getopt(sys.argv[1:], 'p:ts:', ['test', 'path=', 'save='])
     for opt, arg in opts:
